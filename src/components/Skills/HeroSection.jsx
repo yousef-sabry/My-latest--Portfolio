@@ -18,6 +18,7 @@ import git from "../../assets/logos/git-icon.svg";
 import animate from "../../assets/logos/animate.png";
 import sass from "../../assets/logos/sass.png";
 import cleancode from "../../assets/logos/clean-code.png";
+import profilePic from "../../assets/projects-img/me.jpg";
 import "./HeroSection.css";
 
 
@@ -66,7 +67,7 @@ const HeroSection = () => {
               <Button
                 className="cv-btn"
                 variant="outline-dark"
-                href="/cv.pdf"
+                href="/Software Developer CV.pdf"
                 download="Yousef-CV.pdf"
               >
                 📄 Download CV
@@ -75,7 +76,7 @@ const HeroSection = () => {
             <Col md={5} className="text-center">
               <div className="profile-img">
                 <img
-                  src="../../../../public/me.jpg"
+                  src={profilePic}
                   alt="Yousef Sabry"
                   className="img-fluid rounded-circle"
                 />
