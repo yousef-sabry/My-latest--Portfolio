@@ -12,6 +12,7 @@ import icon3 from "../../assets/icon/stamp.png";
 import icon4 from "../../assets/icon/medal.png";
 import icon5 from "../../assets/icon/charter.png";
 
+
 import "./certificates.css";
 
 // 📌 Certificates Data
@@ -20,25 +21,25 @@ const certificates = [
     title: "Web Development ",
     issuer: "Digital Egypt Initiative (Udacity) ",
     icon: icon1,
-    file: "../../../public/Certificates/Udasty Web Developer.pdf",
+    file: "/Certificates/Udasty Web Developer.pdf",
   },
   {
     title: "Front-End Development ReactJS",
     issuer: "SEF Academy ",
     icon: icon2,
-    file: "../../../public/Certificates/SEF.pdf",
+    file: "/Certificates/SEF.pdf",
   },
   {
     title: " Web Development ",
     issuer: "ITI Institute ",
     icon: icon3,
-    file: "../../../public/Certificates/ITI Developer.pdf",
+    file: "/Certificates/ITI Developer.pdf",
   },
   {
     title: "Front-End Development",
     issuer: "Google Developers Groups on Campus - Al-Azhar University",
     icon: icon4,
-    file: "../../../public/Certificates/Web Developer GDGCA.pdf",
+    file: "/Certificates/Web Developer GDGCA.pdf",
   },
   {
     title: "Machine Learning for Data Analysis",
@@ -50,7 +51,7 @@ const certificates = [
     title: "ITI IOT Developer",
     issuer: "ITI Institute",
     icon: icon1,
-    file: "../../../public/ITI IOT Developer.pdf",
+    file: "/Certificates/ITI IOT Developer.pdf",
   },
 ];
 
