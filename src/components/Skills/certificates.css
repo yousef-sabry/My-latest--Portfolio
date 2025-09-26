@@ -1,0 +1,123 @@
+.certificates-section {
+  background-color: #EBEBDF; /* خلفية فاتحة */
+  height: 1600px;
+}
+
+.section-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section-subtitle {
+  color: #64748b;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.certificate-card {
+  border-radius: 20px !important;
+  background-color: #f8fafc !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.titlex {
+  color: #1A1265 !important;
+}
+
+.textx {
+  color: #2b1e8c87 !important;
+}
+
+.btn-cer {
+  background-color: #EBEBDF !important;
+  color: #1A1265 !important;
+  width: 139px;
+  height: 40px;
+  align-items: center;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.certificate-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.certificate-icon {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+/* ---------------- Timeline ---------------- */
+
+.timeline {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+  padding: 20px 0;
+  
+}
+
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  background-color: #1e40af; /* الخط */
+  top: 40px; /* يبدأ من أول نقطة */
+  bottom: auto;
+  height: calc(70% - 50px); /* يقصر لآخر نقطة */
+  left: 50%;
+  margin-left: -1.5px;
+}
+
+.timeline-item {
+  padding: 20px 30px;
+  position: relative;
+  color: #1A1265;
+  width: 50%;
+}
+
+.timeline-item.left {
+  left: 0;
+}
+
+.timeline-item.right.top-align {
+  top: -660px; /* تخلي العنصر يطلع لفوق قصاد الأول */
+}
+/* ---------------- Responsive Timeline ---------------- */
+@media screen and (max-width: 768px) {
+  .certificates-section {
+    height: auto; /* ارتفاع تلقائي */
+    padding: 20px; /* إضافة حشوة */
+  }
+  .timeline::after {
+    left: 20px; /* الخط يبقى على الشمال */
+    margin-left: 0;
+    height: 100%;
+    top: 0;
+  }
+
+  .timeline-item {
+    width: 100%;
+    padding-left: 50px; /* مسافة من الخط */
+    padding-right: 25px;
+    margin-bottom: 40px;
+  }
+
+  .timeline-item.left,
+  .timeline-item.right {
+    left: 0; /* الكل يبقى في النص */
+  }
+
+  .timeline-dot {
+    left: 10px; /* النقطة تيجي على الخط */
+    right: auto;
+  }
+
+  .timeline-item.right.top-align {
+    top: 0 !important; /* إلغاء الطلوع فوق في الموبايل */
+  }
+}

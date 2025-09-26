@@ -1,0 +1,65 @@
+.navbarx {
+  background-color: #EBEBDF !important;
+  
+}
+.home-link {
+  font-weight: 600 !important;
+  font-size: 1.4rem !important;
+  color: #1A1265 !important;
+}
+.home-link:hover {
+  color: #3d338e !important;
+  
+}
+.navbar-social-icons {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-left: auto;
+  
+}
+.social-icon {
+  color: #333;
+  font-size: 1.4rem;
+  transition: color 0.2s;
+}
+.icon-linkedin{
+  color: #007bff;
+}
+.icon-whatsapp{
+  color: #25d366;
+}
+
+.social-icon:hover {
+  font-size: 1.4rem;
+}
+
+.hacker {
+  margin-left: 10px;
+}
+
+
+
+
+
+
+@media (min-width: 992px) {
+  .navbar-toggler {
+    display: none !important;
+  }
+}
+
+.icon-mobile {
+  display: none;
+  margin-right: 6px;
+}
+@media (max-width: 992px) {
+  .icon-mobile {
+    display: inline-block;
+  }
+}
+@media (min-width: 992px) { /* lg and up */
+  .navbar-toggler {
+    display: none !important;
+  }
+}

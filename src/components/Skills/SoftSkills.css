@@ -1,0 +1,52 @@
+.softskills-section {
+  padding: 2px 0;
+  
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #1e40af;
+}
+
+.softskill-card {
+  border-radius: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #f8fafc !important;
+}
+
+.softskill-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.12);
+}
+
+.softskill-icon {
+  font-size: 2.5rem;
+  color: #f97316; /* لون ثانوي مميز */
+  margin-bottom: 15px;
+}
+
+.softskill-card .card-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #1A1265;
+  margin-bottom: 10px;
+}
+
+.softskill-card .card-text {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #2b1e8c87;
+}
+
+/* Responsive tuning */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 1.8rem;
+  }
+  .softskill-icon {
+    font-size: 2rem;
+  }
+}

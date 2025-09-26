@@ -1,0 +1,152 @@
+.skills-section {
+  padding: 2px 5px;
+  text-align: center;
+  background-color: #EBEBDF;
+  
+}
+.skills-container {
+  max-width: 900px !important; 
+  margin: 0 auto !important;   
+}
+.title-h5{
+    font-size: 0.9rem;
+    color: #2b1e8c87;
+    font-weight: bold;
+    
+}
+.title-h55{
+  font-size: 1.2rem;
+    color: #2b1e8c87;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.skills-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #1A1265;
+  
+}
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); /* حجم أصغر */
+  gap: 20px;
+  justify-items: center;
+}
+
+.skill-card {
+  background: #f8fafc;
+  border-radius: 12px;
+  padding: 15px 20px;   /* مسافة داخلية أصغر */
+  width: 190px;         /* عرض الكرت */
+  height: 110px;        /* ارتفاع الكرت */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.skill-card:hover {
+  
+  background-color: #EBEBDF;
+  
+}
+
+.service-card {
+  background: #f8fafc;
+  border-radius: 12px;
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  height: 120px;
+  width: 100%; /* مهم عشان ياخد كامل مساحة العمود */
+  max-width: 350px; /* تقييد العرض بحيث الثلاثة يشوفوا جنب بعض */
+  font-size: 0.8rem;
+}
+.service-card:hover {
+  background-color: #EBEBDF;
+  
+}
+.ser-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #1A1265;
+   
+}
+.ser-p{
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: #2b1e8c87;
+    
+}
+
+.icon-ser{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #1A1265;
+}
+
+
+.icon-skills{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.skill-card img {
+  width: 50px;   /* أيقونة أصغر */
+  margin-bottom: 8px;
+}
+
+.skill-card h5 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 5px 0 2px;
+  color: #1A1265;
+}
+
+.skill-card p {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #2b1e8c87;
+  margin: 0;
+}
+
+.all-skills-btn {
+  background-color:#2A1E8C !important; 
+  color:#EBEBDF !important;
+  width: 120px;
+  height: 40px;
+  align-items: center;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  
+}
+
+.all-skills-btn:hover {
+    
+  background-color: #1A1265 !important; 
+  color: #EBEBDF !important;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .skills-section {
+    padding: 30px 10px;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr; /* كل كارد في صف لوحده */
+    gap: 16px;
+  }
+
+  .skill-card {
+    width: 100% !important; /* الكارد ياخد عرض الشاشة بالكامل */
+    max-width: 100%;
+    
+    height: auto;
+  }
+}

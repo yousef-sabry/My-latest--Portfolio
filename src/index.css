@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  /* background-color: #f8fafc; */
+  background-color: #EBEBDF;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+/* خلي أي سيكشن يبدأ بعد النافبار */
+section {
+  padding-top: 80px;
+}

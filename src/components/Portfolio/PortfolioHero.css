@@ -1,0 +1,162 @@
+.portfolio-hero {
+  background: #EBEBDF;
+  color: #1A1265;
+}
+.tags {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.tag {
+  background: #EBEBDF;
+  color: #1A1265;
+  font-size: 0.7rem;
+  font-weight: 500;
+  padding: 3px 10px;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.tag:hover {
+  background: #1A1265;
+  color: #fff;
+}
+.btn-home{
+    margin-left: 85%;
+    /* background-color: #1A1265; */
+    color: #1A1265;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    
+}
+.btn-home:hover {
+    border: 2px solid #1A1265;
+    border-radius: 10px;
+    
+
+}
+/* 🔹 أيقونات عائمة على يمين الصفحة */
+.floating-icons {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 1000;
+}
+
+.floating-icons .icon-link {
+  font-size: 22px;
+  color: #1E40AF;
+  background: #F1F5F9;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+}
+
+.floating-icons .icon-link:hover {
+  background: #1E40AF;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+/* 🔹 على الموبايل: تخليهم تحت كزر + قائمة منسدلة */
+@media (max-width: 768px) {
+  .floating-icons {
+    top: auto;
+    bottom: 20px;
+    right: 20px;
+    transform: none;
+    flex-direction: row;
+    
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.15);
+  }
+
+  .floating-icons .icon-link {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+}
+
+
+.hero-subtitle {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #2B1E8C87;
+}
+
+.hero-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #1A1265;
+}
+
+/* Service Cards */
+.service-card {
+  background: #f8fafc;
+  border-radius: 12px;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+  transition: all 0.3s ease;
+  width: 100%;
+  height: 100%;
+  max-width: 380px;
+}
+
+.service-card:hover {
+  background-color: #EBEBDF;
+  transform: translateY(-5px);
+  color: #fff;
+}
+
+.ser-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.ser-p {
+  font-size: 0.8rem;
+  color: #2B1E8C87;
+}
+
+.service-icon {
+  font-size: 1.8rem;
+}
+
+/* Floating animation */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+  100% { transform: translateY(0px); }
+}
+
+@media (max-width: 600px) {
+  .btn-home {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: right;
+    font-size: 1rem;
+  }
+}

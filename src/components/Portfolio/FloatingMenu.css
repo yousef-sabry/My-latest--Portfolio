@@ -1,0 +1,64 @@
+/* Desktop floating menu (right side) */
+.floating-menu {
+  position: fixed;
+  top: 40%;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background: #fff;
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  z-index: 1000;
+}
+.floating-menu a {
+  font-size: 22px;
+  color: #1e40af;
+  transition: 0.3s;
+}
+.floating-menu a:hover {
+  color: #f97316;
+}
+
+/* Mobile menu button (top-right corner) */
+.mobile-menu-btn {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  z-index: 1100;
+}
+.mobile-menu-btn button {
+  background: #1e40af;
+  color: #fff;
+  border: none;
+  padding: 10px 12px;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+/* Mobile dropdown */
+.mobile-dropdown {
+  position: fixed;
+  top: 60px;
+  right: 15px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+  z-index: 1100;
+}
+.mobile-dropdown a {
+  color: #1e40af;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: 0.3s;
+}
+.mobile-dropdown a:hover {
+  color: #f97316;
+}

@@ -1,0 +1,137 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 70px; /* space for sidebar */
+  /* background-color: #f8fafc; */
+  margin-bottom: 0px; 
+  /* background-image: url('../../../../public/hero1.jpg');
+  background-size: cover;
+  background-position: center; */
+}
+.hero-text {
+  padding: 20px;
+ 
+}
+.Btn-hero1{
+  background-color:#2A1E8C !important; 
+  color:#EBEBDF !important;
+}
+.Btn-hero1:hover {
+    
+  background-color: #1A1265 !important; 
+  color: #EBEBDF !important;
+}
+/* Available badge */
+.available-badge {
+  display: inline-block;
+  padding: 6px 14px;
+  background: #ecfdf5;
+  color: #10b981;
+  border:   #10b981;
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+.available-badge svg {
+  font-size: 1rem;
+}
+.hero-location {
+  font-size: 1rem !important;
+  font-weight: 600;
+  color: brown !important;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.loc-hero{
+  font-size: 1.5rem;
+}
+.hero-location .icon-location {
+  color: brown !important; 
+}
+
+.hero-text h1 {
+  color: #1A1265;
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero-text h2 {
+  font-size: 1.9rem;
+  font-weight: 600;
+  color: #2b1e8c87;
+  margin-bottom: 15px;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  color: #2b1e8c87;
+  margin-bottom: 25px;
+  /* max-width: 700px; */
+}
+
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+/* ...existing code... */
+
+.hero-img {
+  display: flex;
+  justify-content: flex-end; /* يجعل الصورة في أقصى اليمين */
+  align-items: center;
+  height: 100%;
+}
+
+.hero-img img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%; /* يجعل الصورة دائرية */
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  border: 4px solid #fff;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    min-height: auto;
+    text-align: center;
+    padding-left: 20px; /* إزالة المساحة الجانبية */
+    padding-right: 20px; /* إضافة حشو جانبي */
+  }
+
+   .hero-buttons {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+  }
+  .hero-img {
+    justify-content: center; /* توسيط الصورة في العرض الصغير */
+    margin-top: 20px;
+    width: 100%;
+  }
+
+}
+@media (max-width: 576px) {
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text h2 {
+    font-size: 1.5rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  .hero-img img {
+   justify-content: center;
+  }
+}
