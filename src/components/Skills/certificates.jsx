@@ -12,7 +12,7 @@ import icon3 from "../../assets/icon/stamp.png";
 import icon4 from "../../assets/icon/medal.png";
 import icon5 from "../../assets/icon/charter.png";
 
-import "./Certificates.css";
+import "./certificates.css";
 
 // 📌 Certificates Data
 const certificates = [
