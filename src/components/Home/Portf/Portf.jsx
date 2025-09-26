@@ -1,5 +1,5 @@
 import React from "react";
-import "./Projects.css";
+import "./Portf.css";
 import projectImage1 from "../../../assets/projects-img/proj 1.png";
 import projectImage2 from "../../../assets/projects-img/proj 2.png";
 import projectImage3 from "../../../assets/projects-img/proj 3.png";
