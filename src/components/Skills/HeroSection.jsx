@@ -19,6 +19,10 @@ import animate from "../../assets/logos/animate.png";
 import sass from "../../assets/logos/sass.png";
 import cleancode from "../../assets/logos/clean-code.png";
 import profilePic from "../../assets/projects-img/me.jpg";
+import python from "../../assets/logos/python-5.svg";
+import powerbi from "../../assets/logos/Power Bi.jpg";
+import docker from "../../assets/logos/docker.svg";
+import javascript from "../../assets/logos/javascript-1.svg";
 import "./HeroSection.css";
 
 
@@ -29,19 +33,24 @@ const skillsData = [
   { icon: bootstrap, title: "Bootstrap CSS", text: "User Interface" },
   { icon: gsapLogo, title: "GSAP", text: "Animation Library" },
   { icon: figmaLogo, title: "Figma", text: "Design Tool" },
+  { icon: docker, title: "Docker", text: "Containerization" },
   { icon: sass, title: "SASS", text: "CSS Preprocessor" },
   { icon: htmlLogo, title: "HTML", text: "Interaction" },
   { icon: materialUi, title: "MaterialUI", text: "Component Library" },
   { icon: reactLogo, title: "React", text: "Framework" },
   { icon: tailwind, title: "Tailwind css", text: "User Interface" },
+  { icon: powerbi, title: "Power BI", text: "Data Analysis" },
   { icon: typescript, title: "Type script", text: "Interaction" },
   { icon: shopify, title: "Shopify", text: "Shopify style" },
+  { icon: javascript, title: "JavaScript", text: "Programming Language" },
   { icon: api, title: "Axios", text: "HTTP Client" },
   { icon: reduxLogo, title: "Redux", text: "State Management" },
   { icon: htmlLogo, title: "HTML", text: "Interaction" },
   { icon: animate, title: "Animation", text: "Animation Tool" },
   { icon: git, title: "Git Hup", text: "Code Management" },
+  { icon: python, title: "Paython", text: "programming language" },
   { icon: cleancode, title: "Clean-Code", text: "Codeing" },
+ 
   
 ];
 

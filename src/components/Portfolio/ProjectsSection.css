@@ -109,6 +109,95 @@
   grid-template-columns: repeat(3,1fr) ; /* 3 كروت في الصف */
   gap: 2rem;
 }
+/* الكارد الرئيسي */
+.analysis-card {
+  background-color: #f8fafc;
+  border-radius: 16px;
+  padding: 20px;
+  transition: all 0.3s ease;
+  text-align: left;
+  width: 100%;          /* ياخد العرض كله */
+  max-width: 650px;     /* تكبير الماكس ليمت للكارت */
+}
+
+
+.analysis-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* أيقونة فوق الكارد */
+.analysis-icon {
+   margin-right: 10px;
+  font-size: 22px;
+  color: #1E40AF; /* أزرق */
+}
+
+/* العنوان */
+.analysis-title {
+ display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1A1265;
+  margin-bottom: 12px;
+}
+.analysis-content {
+  display: flex;
+  color: #1A1265;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* ليست النقاط */
+.analysis-list {
+  padding-left: 0;
+  list-style: none;
+  margin: 0 0 15px 0;
+}
+.details-link{
+  text-decoration: none;
+  color: #1E40AF;
+  font-weight: 600;
+  transition: color 0.3s;
+  margin-left: 20px;
+}
+.analysis-point {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #334155;
+}
+
+.analysis-check {
+  color: #10B981; /* أخضر */
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+/* التاجات */
+.analysis-tags {
+  margin-top: 12px;
+}
+
+.analysis-tag {
+  display: inline-block;
+  background: #E2E8F0;
+  color: #1E40AF;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px 10px;
+  border-radius: 12px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  transition: all 0.2s ease;
+}
+
+.analysis-tag:hover {
+  background: #1E40AF;
+  color: #ffffff;
+}
 
 .project-card {
   background: #f8fafc;
@@ -239,6 +328,10 @@
     font-size: 0.7rem;
     padding: 0.3rem 0.6rem;
     margin: 0.2rem;
+  }
+  .details-link{
+    display: block;
+    margin: auto;
   }
 }
 

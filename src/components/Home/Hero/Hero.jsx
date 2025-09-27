@@ -73,7 +73,7 @@ const Hero = () => {
               </a>
             </div>
           </Col>
-          <Col md={4} className="hero-img text-center" style={{ display: "flex", justifyContent: "flex-start" }}>
+          <Col md={4} className="hero-img text-center" style={{ display: "flex", justifyContent: "center" }}>
   <img
     src={heroImg}
     alt="Yousef Sabry"

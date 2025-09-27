@@ -123,7 +123,7 @@ font-size: 1rem;
   
 
   .skills-grid-centered {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr); /* عدل حسب عدد الكروت */
     gap: 18px;
   }
 }

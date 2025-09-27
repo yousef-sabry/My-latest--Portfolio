@@ -112,9 +112,11 @@
     display: flex;
   }
   .hero-img {
-    justify-content: center; /* توسيط الصورة في العرض الصغير */
-    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+    display: flex;
+    margin: 20px 0 0 0; /* مسافة فوق الصورة */
   }
 
 }

@@ -1,5 +1,7 @@
 import React from "react";
 import "./ProjectsSection.css";
+import { FaCheckCircle } from "react-icons/fa";
+import { Container, Row, Col } from "react-bootstrap";
 import projectImage1 from "../../assets/projects-img/proj 1.png";
 import projectImage2 from "../../assets/projects-img/proj 2.png";
 import projectImage3 from "../../assets/projects-img/proj 3.png";
@@ -57,25 +59,28 @@ const projectsData = [
   {
     id: 4,
     title: "English Dictionary ",
-    description:"A clean, responsive web app where you can search for any English word and get its definition, phonetics, part of speech, example usage, and pronunciation—all via a free public dictionary API.",
+    description:
+      "A clean, responsive web app where you can search for any English word and get its definition, phonetics, part of speech, example usage, and pronunciation—all via a free public dictionary API.",
     image: projectImage4,
     tags: ["HTML5", "CSS3", "JavaScript", "API"],
     demoLink: "https://yousef-sabry.github.io/English-Dictionary/",
     detailsLink: "https://github.com/yousef-sabry/English-Dictionary",
   },
-    {
+  {
     id: 5,
     title: "SHOP.CO — Responsive E-Commerce",
-    description:"A modern responsive e-commerce frontend website built with HTML, CSS, and JavaScript. Features product listing, dynamic cart system, filtering, and full CRUD operations.",
+    description:
+      "A modern responsive e-commerce frontend website built with HTML, CSS, and JavaScript. Features product listing, dynamic cart system, filtering, and full CRUD operations.",
     image: projectImage5,
-    tags: ["ReactJs","Bootstrap","Responsive Design"],
+    tags: ["ReactJs", "Bootstrap", "Responsive Design"],
     demoLink: "https://yousef-sabry.github.io/GDGC-Al-Azhar-Final-Project/",
     detailsLink: "https://github.com/yousef-sabry/GDGC-Al-Azhar-Final-Project",
   },
-   {
+  {
     id: 6,
     title: "React To-Do List App",
-    description:"To-Do List App: A task management application built with ReactJS, allowing users to add, delete, and filter tasks efficiently. The app features a clean, responsive design suitable for both mobile and desktop devices.",
+    description:
+      "To-Do List App: A task management application built with ReactJS, allowing users to add, delete, and filter tasks efficiently. The app features a clean, responsive design suitable for both mobile and desktop devices.",
     image: projectImage6,
     tags: ["HTML5", "CSS3", "JavaScript", "API"],
     demoLink: "https://github.com/yousef-sabry/To-Do-List-React",
@@ -84,32 +89,69 @@ const projectsData = [
   {
     id: 7,
     title: "Brand Store Landing Page",
-    Response:"Desktop-only",
-    description:"A desktop-only brand store site built with HTML and CSS.",
+    Response: "Desktop-only",
+    description: "A desktop-only brand store site built with HTML and CSS.",
     image: projectImage7,
-    tags: ["HTML5", "CSS3", "UI/UX","hover effects "],
+    tags: ["HTML5", "CSS3", "UI/UX", "hover effects "],
     demoLink: "https://yousef-sabry.github.io/English-Dictionary/",
     detailsLink: "https://github.com/yousef-sabry/English-Dictionary",
   },
   {
     id: 8,
     title: "Plant Store Landing Page",
-    Response:"Desktop-only",
-    description:"A simple and stylish landing page for a plant store, designed to highlight products with a clean layout and modern UI. The project focuses on design and branding, providing a desktop-only experience that demonstrates front-end development skills using HTML and CSS.",
+    Response: "Desktop-only",
+    description:
+      "A simple and stylish landing page for a plant store, designed to highlight products with a clean layout and modern UI. The project focuses on design and branding, providing a desktop-only experience that demonstrates front-end development skills using HTML and CSS.",
     image: projectImage8,
-    tags: ["HTML5", "CSS3", "UI/UX","hover effects "],
+    tags: ["HTML5", "CSS3", "UI/UX", "hover effects "],
     demoLink: "https://yousef-sabry.github.io/Second-project-Plant-Store/",
     detailsLink: "https://github.com/yousef-sabry/Second-project-Plant-Store",
   },
-   {
+  {
     id: 9,
     title: "Shoe Store Website",
-    Response:"Desktop-only",
-    description:"A desktop-only online shoe store showcase built with responsive HTML & CSS. Displays product categories, images, and navigation between men/women/kids sections.",
+    Response: "Desktop-only",
+    description:
+      "A desktop-only online shoe store showcase built with responsive HTML & CSS. Displays product categories, images, and navigation between men/women/kids sections.",
     image: projectImage9,
-    tags: ["HTML5", "CSS3", "UI/UX","hover effects "],
+    tags: ["HTML5", "CSS3", "UI/UX", "hover effects "],
     demoLink: "https://yousef-sabry.github.io/second-most-developed-project/",
-    detailsLink: "https://github.com/yousef-sabry/second-most-developed-project",
+    detailsLink:
+      "https://github.com/yousef-sabry/second-most-developed-project",
+  },
+];
+const DataAnalysis = [
+  {
+    title: "Housing Dataset Analysis",
+    text: [
+      "Handled missing values to ensure clean and reliable data.",
+      "Applied statistical techniques to detect patterns and trends.",
+      "Developed predictive models for forecasting.",
+      "Designed clear visualizations to present insights.",
+      "Deployed models with Streamlit and created interactive dashboards in Power BI."
+    ],
+    icon: "🏠",
+    tags: ["Pandas", "NumPy", "seaborn", "Matplotlib"],
+    link: "https://github.com/yousef-sabry/Final-Project",
+  },
+  {
+    title: "Electronic Payment Fraud Detection ",
+    text: [
+      "Collected and cleaned raw datasets for analysis.",
+      "Preprocessed data to train ML models (Decision Tree & Random Forest).",
+      "Evaluated models based on accuracy and performance metrics.",
+      "Deployed models with Streamlit and created interactive dashboards in Power BI.",
+    ],
+    icon: "💳",
+    tags: [
+      "Pandas",
+      
+      
+      "scikit-learn",
+      "Streamlit",
+      "Power BI",
+    ],
+    link: "https://github.com/yousef-sabry"
   },
 ];
 const ProjectsSection = () => {
@@ -141,7 +183,11 @@ const ProjectsSection = () => {
                   <a href={project.demoLink} target="_blank" rel="noreferrer">
                     🔗 Live Demo
                   </a>
-                  <a href={project.detailsLink} target="_blank" rel="noreferrer">
+                  <a
+                    href={project.detailsLink}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     View Details →
                   </a>
                 </div>
@@ -157,10 +203,10 @@ const ProjectsSection = () => {
               <div key={project.id} className="project-card">
                 <img src={project.image} alt={project.title} />
                 <div className="card-info">
-                  <h4 >{project.title}</h4>
+                  <h4>{project.title}</h4>
                   {[7, 8, 9].includes(project.id) && (
-  <span className="res-span">{project.Response}</span>
-)}
+                    <span className="res-span">{project.Response}</span>
+                  )}
                   <p>{project.description}</p>
                   <div className="project-tags">
                     {project.tags.map((tag, i) => (
@@ -169,7 +215,7 @@ const ProjectsSection = () => {
                       </span>
                     ))}
                   </div>
-                  
+
                   <div className="project-links">
                     {project.demoLink && project.id !== 3 && (
                       <a
@@ -192,8 +238,58 @@ const ProjectsSection = () => {
               </div>
             ))}
         </div>
-        
       </div>
+      <hr></hr>
+      <h5 className="section-subtitle">
+        My Recent Work For ML For Data Analysis
+      </h5>
+      <h2 className="section-title">Projects ML For Data Analysis</h2>
+      <Row className="justify-content-center">
+        {DataAnalysis.map((item, index) => (
+          <Col
+            key={index}
+            lg={4}
+            md={6}
+            sm={12}
+            className="mb-4 d-flex justify-content-center"
+          >
+            <div className="analysis-card shadow-sm">
+              <div className="analysis-content">
+                <div className="service-card-header">
+                  <span className="service-icon">{item.icon}</span>
+                  <h5 className="service-title">{item.title}</h5>
+                </div>
+
+                <ul className="analysis-list">
+                  {item.text.map((point, idx) => (
+                    <li key={idx} className="analysis-point">
+                      <FaCheckCircle className="analysis-check" /> {point}
+                    </li>
+                  ))}
+                </ul>
+
+                <div className="analysis-tags">
+                  {item.tags.map((tag, idx) => (
+                    <span key={idx} className="analysis-tag">
+                      {tag}
+                    </span>
+                  ))}
+                    {item.link && (
+          <a
+            href={item.link}
+            target="_blank"
+            className="details-link"
+            rel="noreferrer"
+          >
+            View Details →
+          </a>
+        )}
+                </div>
+              </div>
+            </div>
+          </Col>
+        ))}
+      </Row>
       <hr></hr>
     </section>
   );

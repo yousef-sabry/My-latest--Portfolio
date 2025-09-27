@@ -1,5 +1,6 @@
 import React from "react";
 import "./Contact.css";
+import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
 
 const Contact = () => {
@@ -11,20 +12,22 @@ const Contact = () => {
           I'm always looking for opportunities to collaborate, learn, and create. 
           Whether you have a project in mind or just want to connect, I'd love to hear from you!
         </p>
-        <div className="contact-buttons">
-          <a href="mailto:youremail@example.com" className="btn btn-primary">
+         <div className="contact-buttons">
+                  
+                  <Link to="/contact" className="btn btn-primary">
             Get in Touch
-          </a>
-          <a 
-            href="https://github.com/yourgithub" 
-            target="_blank" 
-            rel="noreferrer" 
-            className="btn btn-outline"
-          >
-            <FaGithub className="btn-icon" /> View My GitHub
-          </a>
-        </div>
+          </Link>
+                  <a 
+                    href="https://github.com/yousef-sabry" 
+                    target="_blank" 
+                    rel="noreferrer" 
+                    className="btn btn-outline"
+                  >
+                    <FaGithub className="btn-icon" /> View My GitHub
+                  </a>
+                </div>
       </div>
+      
     </section>
   );
 };

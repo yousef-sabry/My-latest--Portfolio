@@ -7,10 +7,10 @@ import reactLogo from "../../../assets/logos/react-2.svg";
 import reduxLogo from "../../../assets/logos/redux.svg";
 import figmaLogo from "../../../assets/logos/figma-icon.svg";
 import nextLogo from "../../../assets/logos/nextjs-icon-svgrepo-com.svg";
-import gsapLogo from "../../../assets/logos/gsap-greensock.svg";
 import materialUi from "../../../assets/logos/material-ui-1.svg";
 import bootstrap from "../../../assets/logos/bootstrap-4.svg";
 import access from "../../../assets/logos/microsoft-access-1.svg";
+import python from "../../../assets/logos/python-5.svg";
 import "./Skills.css";
 
 const servicesData = [
@@ -45,7 +45,7 @@ const skillsData = [
   { icon: nextLogo, title: "Next.js", text: "Framework" },
   { icon: reactLogo, title: "React", text: "Framework" },
   { icon: bootstrap, title: "Bootstrap CSS", text: "User Interface" },
-  { icon: gsapLogo, title: "GSAP", text: "Animation Library" },
+  { icon: python, title: "Paython", text: "programming language" },
   { icon: figmaLogo, title: "Figma", text: "Design Tool" },
   { icon: reduxLogo, title: "Redux", text: "State Management" },
   { icon: access, title: "Aicrosoft Access", text: "Database Management" },

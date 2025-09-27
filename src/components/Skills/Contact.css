@@ -37,6 +37,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  cursor: pointer;
   gap: 15px;
 }
 
@@ -46,6 +47,7 @@
   font-weight: 600;
   text-decoration: none;
   transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .btn-primary {

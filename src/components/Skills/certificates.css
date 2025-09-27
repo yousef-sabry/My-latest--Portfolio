@@ -94,7 +94,7 @@
     padding: 20px; /* إضافة حشوة */
   }
   .timeline::after {
-    left: 20px; /* الخط يبقى على الشمال */
+    left: 10px; /* الخط يبقى على الشمال */
     margin-left: 0;
     height: 100%;
     top: 0;
@@ -102,7 +102,7 @@
 
   .timeline-item {
     width: 100%;
-    padding-left: 50px; /* مسافة من الخط */
+    padding-left: 0px; /* مسافة من الخط */
     padding-right: 25px;
     margin-bottom: 40px;
   }
