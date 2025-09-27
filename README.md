@@ -1,12 +1,30 @@
-# React + Vite
+# 🌐 My Latest Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal **portfolio website** built with **React.js** and **Bootstrap**, designed to showcase my projects, skills, certificates, and trainings in a clean and modern way.  
 
-Currently, two official plugins are available:
+🚀 The portfolio is fully responsive and deployed on **Netlify/Vercel** for fast and reliable hosting.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🖼️ **Home Page** – Quick intro and navigation to all sections.  
+- 👨‍💻 **About & Skills** – Highlighting technical skills and expertise.  
+- 🏆 **Certificates & Trainings** – Achievements and practical experience with interactive cards.  
+- 💼 **Projects/Portfolio** – Showcasing my latest projects with links and details.  
+- 📩 **Contact Section** – Easy access to reach me via email, GitHub, LinkedIn, or WhatsApp.  
+- 📱 **Responsive Design** – Works smoothly on desktop, tablet, and mobile.  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js, React-Bootstrap, React Router  
+- **Styling:** CSS3, Bootstrap 5, custom components  
+- **Icons:** React-Icons (FontAwesome)  
+- **Deployment:** Netlify / Vercel  
+
+---
+
+## 📂 Project Structure
+
