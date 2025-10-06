@@ -11,7 +11,7 @@ import projectImage6 from "../../assets/projects-img/proj 6.png";
 import projectImage7 from "../../assets/projects-img/proj 7.png";
 import projectImage8 from "../../assets/projects-img/proj 8.png";
 import projectImage9 from "../../assets/projects-img/proj 9.png";
-
+import projectImage10 from "../../assets/projects-img/proj 10.png";
 import "./ProjectsSection.css";
 const projectsData = [
   {
@@ -71,13 +71,24 @@ const projectsData = [
     title: "SHOP.CO — Responsive E-Commerce",
     description:
       "A modern responsive e-commerce frontend website built with HTML, CSS, and JavaScript. Features product listing, dynamic cart system, filtering, and full CRUD operations.",
-    image: projectImage5,
+    image: projectImage10,
     tags: ["ReactJs", "Bootstrap", "Responsive Design"],
+    demoLink: "https://crypto-tracker-ecru-xi.vercel.app/",
+    detailsLink: "https://github.com/yousef-sabry/crypto-tracker",
+  },
+   {
+    id: 6,
+    title: "CryptoApp",
+    description:
+      "A responsive React.js Currency Tracker & Converter that displays live exchange rates via an external API, with an interactive Chart.js price graph.",
+    image: projectImage5,
+    tags: ["ReactJs", "Bootstrap5", "Responsive Design" , "API"],
     demoLink: "https://yousef-sabry.github.io/GDGC-Al-Azhar-Final-Project/",
     detailsLink: "https://github.com/yousef-sabry/GDGC-Al-Azhar-Final-Project",
   },
+
   {
-    id: 6,
+    id: 7,
     title: "React To-Do List App",
     description:
       "To-Do List App: A task management application built with ReactJS, allowing users to add, delete, and filter tasks efficiently. The app features a clean, responsive design suitable for both mobile and desktop devices.",
@@ -87,7 +98,7 @@ const projectsData = [
     detailsLink: "https://github.com/yousef-sabry/English-Dictionary",
   },
   {
-    id: 7,
+    id: 8,
     title: "Brand Store Landing Page",
     Response: "Desktop-only",
     description: "A desktop-only brand store site built with HTML and CSS.",
@@ -97,7 +108,7 @@ const projectsData = [
     detailsLink: "https://github.com/yousef-sabry/English-Dictionary",
   },
   {
-    id: 8,
+    id: 9,
     title: "Plant Store Landing Page",
     Response: "Desktop-only",
     description:
@@ -108,7 +119,7 @@ const projectsData = [
     detailsLink: "https://github.com/yousef-sabry/Second-project-Plant-Store",
   },
   {
-    id: 9,
+    id: 10,
     title: "Shoe Store Website",
     Response: "Desktop-only",
     description:

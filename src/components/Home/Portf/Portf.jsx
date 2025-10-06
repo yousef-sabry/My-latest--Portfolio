@@ -3,7 +3,7 @@ import "./Portf.css";
 import projectImage1 from "../../../assets/projects-img/proj 1.png";
 import projectImage2 from "../../../assets/projects-img/proj 2.png";
 import projectImage3 from "../../../assets/projects-img/proj 3.png";
-import projectImage5 from "../../../assets/projects-img/proj 5.png";
+import projectImage5 from "../../../assets/projects-img/proj 4.png";
 import { Button } from "react-bootstrap";
 
 const projectsData = [
