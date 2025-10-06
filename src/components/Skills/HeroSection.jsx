@@ -25,9 +25,6 @@ import docker from "../../assets/logos/docker.svg";
 import javascript from "../../assets/logos/javascript-1.svg";
 import "./HeroSection.css";
 
-
-
-
 const skillsData = [
   { icon: nextLogo, title: "Next.js", text: "Framework" },
   { icon: bootstrap, title: "Bootstrap CSS", text: "User Interface" },
@@ -50,8 +47,6 @@ const skillsData = [
   { icon: git, title: "Git Hup", text: "Code Management" },
   { icon: python, title: "Paython", text: "programming language" },
   { icon: cleancode, title: "Clean-Code", text: "Codeing" },
- 
-  
 ];
 
 const HeroSection = () => {
@@ -67,16 +62,16 @@ const HeroSection = () => {
               </h1>
               <h2>Web Developer | Machine learning | Data Analysis</h2>
               <p>
-               Versatile web developer skilled in front-end design using React
-              and problem-solving with Java. Experienced in machine learning for
-              data analysis, enabling smart, data-driven features in web
-              projects. Passionate about crafting seamless user experiences and
-              staying ahead with emerging technologies.
+                Versatile web developer skilled in front-end design using React
+                and problem-solving with Java. Experienced in machine learning
+                for data analysis, enabling smart, data-driven features in web
+                projects. Passionate about crafting seamless user experiences
+                and staying ahead with emerging technologies.
               </p>
               <Button
                 className="cv-btn"
                 variant="outline-dark"
-                href="/Software Developer CV.pdf"
+                href="/Yousef-CV.pdf"
                 download="Yousef-CV.pdf"
               >
                 📄 Download CV
@@ -97,24 +92,28 @@ const HeroSection = () => {
 
       {/* Skills Section */}
       <section className="skills-section">
-  <Container>
-    <h3 className="section-title1 text-center">What Skills I Have</h3>
-    <h2 className="section-title text-center">My Experience</h2>
-    <div className="skills-box-centered">
-      <div className="skills-grid-centered">
-        {skillsData.map((skill, index) => (
-          <div key={index} className="skill-card-centered shadow-sm">
-            <div className="skill-icon icon-skills">
-              <img src={skill.icon} alt={skill.title} style={{ width: "50px", height: "50px"  }} />
+        <Container>
+          <h3 className="section-title1 text-center">What Skills I Have</h3>
+          <h2 className="section-title text-center">My Experience</h2>
+          <div className="skills-box-centered">
+            <div className="skills-grid-centered">
+              {skillsData.map((skill, index) => (
+                <div key={index} className="skill-card-centered shadow-sm">
+                  <div className="skill-icon icon-skills">
+                    <img
+                      src={skill.icon}
+                      alt={skill.title}
+                      style={{ width: "50px", height: "50px" }}
+                    />
+                  </div>
+                  <h5 className="skill-h5">{skill.title}</h5>
+                  <p className="skill-p">{skill.text}</p>
+                </div>
+              ))}
             </div>
-            <h5 className="skill-h5">{skill.title}</h5>
-            <p className="skill-p">{skill.text}</p>
           </div>
-        ))}
-      </div>
-    </div>
-  </Container>
-</section>
+        </Container>
+      </section>
     </div>
   );
 };

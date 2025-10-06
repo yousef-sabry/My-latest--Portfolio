@@ -66,7 +66,7 @@ const Hero = () => {
               <Button as={Link} to="/skills" className="Btn-hero1">
                 About Me
               </Button>
-              <a href="/cv.pdf" download="Yousef-CV.pdf">
+              <a href="/Yousef-CV.pdf" download="Yousef-CV.pdf">
                 <Button className="Btn-hero" variant="outline-dark">
                   <FaDownload /> Download CV
                 </Button>
