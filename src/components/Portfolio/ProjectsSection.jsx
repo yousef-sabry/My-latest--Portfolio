@@ -27,8 +27,8 @@ const projectsData = [
       "Redux Toolkit ",
       "Responsive Design",
     ],
-    demoLink: "https://yousef-sabry.github.io/",
-    detailsLink: "https://github.com/yousef-sabry/Our-Ecom",
+    demoLink: "https://github.com/yousef-sabry/Our-Ecom-",
+    detailsLink: "https://github.com/yousef-sabry/Our-Ecom-",
     highlight: true,
   },
   {

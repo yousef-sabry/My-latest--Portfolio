@@ -39,7 +39,7 @@ const certificates = [
     title: "Front-End Development",
     issuer: "Google Developers Groups on Campus - Al-Azhar University",
     icon: icon4,
-    file: "/Certificates/Web Developer GDGCA.pdf",
+    file: "/Certificates/WebDeveloperGDGCA.pdf",
   },
   {
     title: "Machine Learning for Data Analysis",
