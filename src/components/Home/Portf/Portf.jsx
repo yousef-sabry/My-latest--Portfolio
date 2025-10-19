@@ -2,8 +2,9 @@ import React from "react";
 import "./Portf.css";
 import projectImage1 from "../../../assets/projects-img/proj 1.png";
 import projectImage2 from "../../../assets/projects-img/proj 2.png";
-import projectImage3 from "../../../assets/projects-img/proj 3.png";
 import projectImage5 from "../../../assets/projects-img/proj 4.png";
+import projectImage11 from "../../../assets/projects-img/proj 11.png";
+
 import { Button } from "react-bootstrap";
 
 const projectsData = [
@@ -42,12 +43,13 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "Full-Stack Campus Management System",
+    title: "Gym-Management-System (React + Vite)",
     description:
-      "Graduation project developed using React for the front-end and .NET for the back-end. This project demonstrates a full-stack application with a focus on performance, scalability, and modern design principles.",
-    image: projectImage3,
-    tags: ["React.js", "Vite", "Bootstrap", "JavaScript"],
-    detailsLink: "https://github.com/yousef-sabry/College-Graduation-Project",
+      "🏋️‍♂️Gym Management System A modern web app built with React + Vite for managing gym operations. Includes Admin and Member Dashboards, authentication, and role-based access with a clean, animated, and responsive design.",
+    image: projectImage11,
+    tags: ["React.js","Bootstrap5", "Context Api", "State Management","Local Storage"],
+    demoLink: "https://gym-management-system-five-peach.vercel.app/",
+    detailsLink: "https://github.com/yousef-sabry/gym-management-system",
   },
   {
     id: 4,
@@ -119,7 +121,7 @@ const Projects = () => {
                     ))}
                   </div>
                   <div className="project-links">
-                    {project.demoLink && project.id !== 3 && (
+                    {project.demoLink && project.id !== 7 && (
                       <a
                         href={project.demoLink}
                         target="_blank"

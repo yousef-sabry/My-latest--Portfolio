@@ -5,7 +5,7 @@ import { FaDatabase } from "react-icons/fa";
 import { FaJava } from "react-icons/fa";
 import reactLogo from "../../../assets/logos/react-2.svg";
 import reduxLogo from "../../../assets/logos/redux.svg";
-import figmaLogo from "../../../assets/logos/figma-icon.svg";
+import vitejs from "../../../assets/logos/vitejs.svg";
 import nextLogo from "../../../assets/logos/nextjs-icon-svgrepo-com.svg";
 import materialUi from "../../../assets/logos/material-ui-1.svg";
 import bootstrap from "../../../assets/logos/bootstrap-4.svg";
@@ -46,7 +46,7 @@ const skillsData = [
   { icon: reactLogo, title: "React", text: "Framework" },
   { icon: bootstrap, title: "Bootstrap CSS", text: "User Interface" },
   { icon: python, title: "Paython", text: "programming language" },
-  { icon: figmaLogo, title: "Figma", text: "Design Tool" },
+  { icon: vitejs, title: "Vite", text: " Build Tool" },
   { icon: reduxLogo, title: "Redux", text: "State Management" },
   { icon: access, title: "Aicrosoft Access", text: "Database Management" },
   { icon: materialUi, title: "MaterialUI", text: "Component Library" },

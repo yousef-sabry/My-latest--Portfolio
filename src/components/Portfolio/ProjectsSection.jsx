@@ -12,6 +12,7 @@ import projectImage7 from "../../assets/projects-img/proj 7.png";
 import projectImage8 from "../../assets/projects-img/proj 8.png";
 import projectImage9 from "../../assets/projects-img/proj 9.png";
 import projectImage10 from "../../assets/projects-img/proj 10.png";
+import projectImage11 from "../../assets/projects-img/proj 11.png";
 import "./ProjectsSection.css";
 const projectsData = [
   {
@@ -56,8 +57,18 @@ const projectsData = [
     tags: ["React.js", "Vite", "Bootstrap", "JavaScript"],
     detailsLink: "https://github.com/yousef-sabry/College-Graduation-Project",
   },
-  {
+   {
     id: 4,
+    title: "Gym-Management-System (React + Vite)",
+    description:
+      "🏋️‍♂️Gym Management System A modern web app built with React + Vite for managing gym operations. Includes Admin and Member Dashboards, authentication, and role-based access with a clean, animated, and responsive design.",
+    image: projectImage11,
+    tags: ["React.js","Bootstrap5", "Context Api", "State Management","Local Storage"],
+    demoLink: "https://gym-management-system-five-peach.vercel.app/",
+    detailsLink: "https://github.com/yousef-sabry/gym-management-system",
+  },
+  {
+    id: 5,
     title: "English Dictionary ",
     description:
       "A clean, responsive web app where you can search for any English word and get its definition, phonetics, part of speech, example usage, and pronunciation—all via a free public dictionary API.",
@@ -67,28 +78,28 @@ const projectsData = [
     detailsLink: "https://github.com/yousef-sabry/English-Dictionary",
   },
   {
-    id: 5,
+    id: 6,
     title: "SHOP.CO — Responsive E-Commerce",
     description:
       "A modern responsive e-commerce frontend website built with HTML, CSS, and JavaScript. Features product listing, dynamic cart system, filtering, and full CRUD operations.",
-    image: projectImage10,
+    image: projectImage5,
     tags: ["ReactJs", "Bootstrap", "Responsive Design"],
     demoLink: "https://crypto-tracker-ecru-xi.vercel.app/",
     detailsLink: "https://github.com/yousef-sabry/crypto-tracker",
   },
    {
-    id: 6,
+    id: 7,
     title: "CryptoApp",
     description:
       "A responsive React.js Currency Tracker & Converter that displays live exchange rates via an external API, with an interactive Chart.js price graph.",
-    image: projectImage5,
+    image: projectImage10,
     tags: ["ReactJs", "Bootstrap5", "Responsive Design" , "API"],
     demoLink: "https://yousef-sabry.github.io/GDGC-Al-Azhar-Final-Project/",
     detailsLink: "https://github.com/yousef-sabry/GDGC-Al-Azhar-Final-Project",
   },
 
   {
-    id: 7,
+    id: 8,
     title: "React To-Do List App",
     description:
       "To-Do List App: A task management application built with ReactJS, allowing users to add, delete, and filter tasks efficiently. The app features a clean, responsive design suitable for both mobile and desktop devices.",
@@ -98,7 +109,7 @@ const projectsData = [
     detailsLink: "https://github.com/yousef-sabry/English-Dictionary",
   },
   {
-    id: 8,
+    id: 9,
     title: "Brand Store Landing Page",
     Response: "Desktop-only",
     description: "A desktop-only brand store site built with HTML and CSS.",
@@ -108,7 +119,7 @@ const projectsData = [
     detailsLink: "https://github.com/yousef-sabry/English-Dictionary",
   },
   {
-    id: 9,
+    id: 10,
     title: "Plant Store Landing Page",
     Response: "Desktop-only",
     description:
@@ -119,7 +130,7 @@ const projectsData = [
     detailsLink: "https://github.com/yousef-sabry/Second-project-Plant-Store",
   },
   {
-    id: 10,
+    id: 11,
     title: "Shoe Store Website",
     Response: "Desktop-only",
     description:
@@ -163,6 +174,25 @@ const DataAnalysis = [
       "Power BI",
     ],
     link: "https://github.com/yousef-sabry"
+  },
+   {
+    title: "customer-churn-prediction",
+    text: [
+      "Customer Churn Prediction App — a Streamlit app that predicts if a customer will leave.",
+      "Built using a Random Forest model for accurate results.",
+      "Users enter details and get instant predictions.",
+      "Combines ML, data analysis, and a clean UI.",
+    ],
+    icon: "⚡",
+    tags: [
+      "Pandas",
+      
+      
+      "scikit-learn",
+      "Streamlit",
+      "Power BI",
+    ],
+    link: "https://github.com/yousef-sabry/customer-churn-prediction"
   },
 ];
 const ProjectsSection = () => {
@@ -215,7 +245,7 @@ const ProjectsSection = () => {
                 <img src={project.image} alt={project.title} />
                 <div className="card-info">
                   <h4>{project.title}</h4>
-                  {[7, 8, 9].includes(project.id) && (
+                  {[9, 10, 11].includes(project.id) && (
                     <span className="res-span">{project.Response}</span>
                   )}
                   <p>{project.description}</p>

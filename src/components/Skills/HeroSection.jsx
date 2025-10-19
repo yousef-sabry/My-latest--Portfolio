@@ -23,6 +23,7 @@ import python from "../../assets/logos/python-5.svg";
 import powerbi from "../../assets/logos/Power Bi.jpg";
 import docker from "../../assets/logos/docker.svg";
 import javascript from "../../assets/logos/javascript-1.svg";
+import vitejs from "../../assets/logos/vitejs.svg";
 import "./HeroSection.css";
 
 const skillsData = [
@@ -35,6 +36,7 @@ const skillsData = [
   { icon: htmlLogo, title: "HTML", text: "Interaction" },
   { icon: materialUi, title: "MaterialUI", text: "Component Library" },
   { icon: reactLogo, title: "React", text: "Framework" },
+  { icon: vitejs, title: "Vite", text: " Build Tool" },
   { icon: tailwind, title: "Tailwind css", text: "User Interface" },
   { icon: powerbi, title: "Power BI", text: "Data Analysis" },
   { icon: typescript, title: "Type script", text: "Interaction" },
