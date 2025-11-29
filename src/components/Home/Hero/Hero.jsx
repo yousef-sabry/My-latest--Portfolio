@@ -111,7 +111,10 @@ const Hero = () => {
                 👋
               </span>
             </h1>
-            <h2>Web Developer | Machine learning | Data Analysis</h2>
+            <h2 className="hero-role">
+              Frontend React Developer
+              <span className="skill-badge" aria-hidden="true">ML & Data Analysis</span>
+            </h2>
 
             <p className="hero-location" ref={locationRef}>
               <FaMapMarkerAlt className="me-2 text-primary icon-location" />
@@ -119,17 +122,14 @@ const Hero = () => {
             </p>
 
             <p ref={descriptionRef}>
-              Versatile web developer skilled in front-end design using React
-              and database management with Microsoft Access. Experienced in machine learning for
-              data analysis, enabling smart, data-driven features in web
-              projects. Passionate about crafting seamless user experiences and
-              staying ahead with emerging technologies.
+           Versatile web developer focused on building modern, responsive interfaces with React. Experienced in database management and machine learning, enabling smarter,
+            data-driven features in web applications.
             </p>
             <div className="hero-buttons" ref={buttonsRef}>
               <Button as={Link} to="/skills" className="Btn-hero1">
                 About Me
               </Button>
-              <a href="/Yousef-CV.pdf" download="Yousef-CV.pdf">
+              <a href="/Front-End Web Developer.pdf" download="Front-End Web Developer.pdf">
                 <Button className="Btn-hero" variant="outline-dark">
                   <FaDownload /> Download CV
                 </Button>

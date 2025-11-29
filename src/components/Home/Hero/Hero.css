@@ -58,6 +58,39 @@
   font-weight: bold;
   margin-bottom: 10px;
 }
+/* badge next to role */
+.hero-role {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  font-weight: 600;
+}
+
+.skill-badge {
+  display: inline-block;
+  background: linear-gradient(90deg,#1e40af 0%,#3b82f6 100%);
+  color: #fff;
+  font-size: 0.75rem;
+  padding: 6px 10px;
+  border-radius: 999px;
+  box-shadow: 0 6px 18px rgba(30,64,175,0.12);
+  line-height: 1;
+  transform: translateY(-2px);
+}
+
+/* make badge sit under title on small screens */
+@media (max-width: 576px) {
+  .hero-role {
+    justify-content: center;
+    text-align: center;
+  }
+  .skill-badge {
+    display: block;
+    margin: 6px auto 0;
+    transform: none;
+  }
+}
 
 .hero-text h2 {
   font-size: 1.9rem;
