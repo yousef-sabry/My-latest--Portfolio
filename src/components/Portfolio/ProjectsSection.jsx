@@ -13,6 +13,7 @@ import projectImage8 from "../../assets/projects-img/proj 8.png";
 import projectImage9 from "../../assets/projects-img/proj 9.png";
 import projectImage10 from "../../assets/projects-img/proj 10.png";
 import projectImage11 from "../../assets/projects-img/proj 11.png";
+import projectImage12 from "../../assets/projects-img/proj 12.png";
 import "./ProjectsSection.css";
 const projectsData = [
   {
@@ -67,6 +68,16 @@ const projectsData = [
     demoLink: "https://gym-management-system-five-peach.vercel.app/",
     detailsLink: "https://github.com/yousef-sabry/gym-management-system",
   },
+   {
+    id: 4,
+    title: "Weather App",
+    description:
+      "Weather App: A responsive web application that lets users check the current weather for any city using the OpenWeather API, featuring smooth animations and an easy-to-use interface.",
+    image: projectImage12,
+    tags: ["React.js","Bootstrap5", "Axios", "GSAP"],
+    demoLink: "https://weather-app-lyart-six-30.vercel.app/",
+    detailsLink: "https://github.com/yousef-sabry/Weather-App",
+  },
   {
     id: 5,
     title: "English Dictionary ",
@@ -84,9 +95,10 @@ const projectsData = [
       "A modern responsive e-commerce frontend website built with HTML, CSS, and JavaScript. Features product listing, dynamic cart system, filtering, and full CRUD operations.",
     image: projectImage5,
     tags: ["ReactJs", "Bootstrap", "Responsive Design"],
-    demoLink: "https://crypto-tracker-ecru-xi.vercel.app/",
-    detailsLink: "https://github.com/yousef-sabry/crypto-tracker",
+    demoLink: "https://yousef-sabry.github.io/GDGC-Al-Azhar-Final-Project/",
+    detailsLink: "https://github.com/yousef-sabry/GDGC-Al-Azhar-Final-Project",
   },
+
    {
     id: 7,
     title: "CryptoApp",
@@ -94,8 +106,8 @@ const projectsData = [
       "A responsive React.js Currency Tracker & Converter that displays live exchange rates via an external API, with an interactive Chart.js price graph.",
     image: projectImage10,
     tags: ["ReactJs", "Bootstrap5", "Responsive Design" , "API"],
-    demoLink: "https://yousef-sabry.github.io/GDGC-Al-Azhar-Final-Project/",
-    detailsLink: "https://github.com/yousef-sabry/GDGC-Al-Azhar-Final-Project",
+    demoLink: " https://crypto-tracker-ecru-xi.vercel.app/",
+    detailsLink: "https://github.com/yousef-sabry/crypto-tracker",
   },
 
   {

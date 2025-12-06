@@ -2,7 +2,7 @@ import React from "react";
 import "./Portf.css";
 import projectImage1 from "../../../assets/projects-img/proj 1.png";
 import projectImage2 from "../../../assets/projects-img/proj 2.png";
-import projectImage5 from "../../../assets/projects-img/proj 4.png";
+import projectImage12 from "../../../assets/projects-img/proj 12.png";
 import projectImage11 from "../../../assets/projects-img/proj 11.png";
 
 import { Button } from "react-bootstrap";
@@ -51,15 +51,17 @@ const projectsData = [
     demoLink: "https://gym-management-system-five-peach.vercel.app/",
     detailsLink: "https://github.com/yousef-sabry/gym-management-system",
   },
+  
   {
-    id: 4,
-    title: "English Dictionary ",
-    description:"A clean, responsive web app where you can search for any English word and get its definition, phonetics, part of speech, example usage, and pronunciation—all via a free public dictionary API.",
-    image: projectImage5,
-    tags: ["HTML5", "CSS3", "JavaScript", "API"],
-    demoLink: "https://yousef-sabry.github.io/English-Dictionary/",
-    detailsLink: "https://github.com/yousef-sabry/English-Dictionary",
-  },
+     id: 4,
+     title: "Weather App",
+     description:
+       "Weather App: A responsive web application that lets users check the current weather for any city using the OpenWeather API, featuring smooth animations and an easy-to-use interface.",
+     image: projectImage12,
+     tags: ["React.js","Bootstrap5", "Axios", "GSAP"],
+     demoLink: "https://weather-app-lyart-six-30.vercel.app/",
+     detailsLink: "https://github.com/yousef-sabry/Weather-App",
+   },
 ];
 
 const Projects = () => {
