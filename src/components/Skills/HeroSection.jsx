@@ -18,7 +18,7 @@ import git from "../../assets/logos/git-icon.svg";
 import animate from "../../assets/logos/animate.png";
 import sass from "../../assets/logos/sass.png";
 import cleancode from "../../assets/logos/clean-code.png";
-import profilePic from "../../assets/projects-img/me.jpg";
+// import profilePic from "../../assets/projects-img/me.jpg";
 import python from "../../assets/logos/python-5.svg";
 import powerbi from "../../assets/logos/Power Bi.jpg";
 import docker from "../../assets/logos/docker.svg";
@@ -55,7 +55,7 @@ const HeroSection = () => {
   return (
     <div className="all-skills-page">
       {/* Hero Section */}
-      <section className="skills-hero">
+      {/* <section className="skills-hero">
         <Container>
           <Row className="align-items-center">
             <Col md={7}>
@@ -90,7 +90,7 @@ const HeroSection = () => {
             </Col>
           </Row>
         </Container>
-      </section>
+      </section> */}
 
       {/* Skills Section */}
       <section className="skills-section">
