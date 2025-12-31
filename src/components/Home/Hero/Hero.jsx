@@ -144,9 +144,9 @@ const Hero = () => {
             </h1>
             <h2 className="hero-role">
               Frontend React Developer
-              <span className="skill-badge" aria-hidden="true">
+              {/* <span className="skill-badge" aria-hidden="true">
                 ML & Data Analysis
-              </span>
+              </span> */}
             </h2>
 
             <p className="hero-location" ref={locationRef}>
